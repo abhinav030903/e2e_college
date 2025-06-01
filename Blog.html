@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png" alt="University Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="Courses.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our certificate & Online Programs for 2025</h1>
+    </section>
+    <!-- ------Blog Page Content----- -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="certificate.jpg">
+                <h2>Our certificate & Online Programs for 2025</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, laborum repudiandae. Accusantium
+                    consectetur unde, voluptatum voluptates, tempore nobis ducimus provident quasi illum reprehenderit
+                    minima voluptate. Magni voluptate dignissimos inventore possimus?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ipsam aperiam ducimus quidem soluta ad
+                    perferendis dolore tenetur nisi eligendi sed excepturi minus at inventore sint quasi distinctio
+                    numquam commodi sapiente molestiae, hic tempora. Magnam accusantium dicta ipsa distinctio
+                    repudiandae in nam quasi? Repudiandae tempore alias maxime aut delectus magnam iusto incidunt
+                    pariatur nostrum optio ea consequatur ipsam nihil, ad tenetur cumque accusamus sit facilis
+                    assumenda? Sit eius fugiat omnis. Rerum repudiandae quos quidem saepe tenetur sequi officia eum
+                    earum molestias sed, soluta voluptate ullam tempore, deleniti ipsam. Ipsum atque id dolorem
+                    voluptatibus nulla veritatis iusto excepturi. Explicabo, suscipit officiis.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, itaque quibusdam est sed quo eaque
+                    maxime voluptatibus doloremque nesciunt a consequuntur repellendus dolores mollitia. Hic
+                    exercitationem, corporis sint ad natus aperiam temporibus praesentium optio distinctio iusto
+                    cupiditate impedit, non deleniti aut ipsam quis facilis illum dolorum nam nemo sed voluptas minima
+                    facere unde. Saepe distinctio magnam architecto ad iste, repellendus possimus cum dolorem
+                    voluptatem, fuga tempora aperiam? Maiores, vel reprehenderit..</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sequi ea, iste facere commodi
+                    ipsam ratione quas vero error, natus odit ipsa harum dolores eius iure illum adipisci, quae alias.
+                </p>
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment">Your comment
+                        </textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+
+
+
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCad</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- ----Footer------>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus eos earum omnis vero ab corrupti vel
+            rem quisquam labore. Nobis explicabo rerum amet assumenda fuga quae consequuntur molestias quia officia?</p>
+        <div class="icons">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+    </section>
+
+
+
+
+    <!-- -----JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+
+</body>
+
+</html>
